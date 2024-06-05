@@ -1,9 +1,19 @@
 import React from 'react';
+import Banner from '../../Components/Banner/Banner';
+import Products from '../../Components/Products/Products';
+import { useLoaderData } from 'react-router-dom';
 
 const Home = () => {
+    const products = useLoaderData();
+
     return (
         <div>
-            <h1>Home Page</h1>
+           <section>
+            <Banner></Banner>
+           </section>
+           <section>
+            <Products products={products}></Products>
+           </section>
         </div>
     );
 };

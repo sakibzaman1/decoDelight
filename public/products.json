@@ -2,71 +2,201 @@
     {
         "id": 1,
         "name": "Decorative Vase",
-        "image": "https://example.com/images/vase.jpg",
+        "image": "https://i.ibb.co/8BFmKcW/Decorative-Vase.jpg",
         "price": 25.00,
-        "rating": 4.5
+        "rating": 4.5,
+        "description": "A beautiful ceramic vase perfect for adding a touch of elegance to any room."
     },
     {
         "id": 2,
         "name": "Wall Art",
-        "image": "https://example.com/images/wall_art.jpg",
+        "image": "https://i.ibb.co/sq9GMgr/Wall-Art.jpg",
         "price": 45.00,
-        "rating": 4.8
+        "rating": 4.8,
+        "description": "A stunning piece of wall art to enhance the aesthetic of your home."
     },
     {
         "id": 3,
         "name": "Throw Pillow",
-        "image": "https://example.com/images/throw_pillow.jpg",
+        "image": "https://i.ibb.co/FnqNyLL/Throw-Pillow.jpg",
         "price": 15.00,
-        "rating": 4.2
+        "rating": 4.2,
+        "description": "A soft and cozy throw pillow that adds a pop of color and comfort."
     },
     {
         "id": 4,
         "name": "Table Lamp",
-        "image": "https://example.com/images/table_lamp.jpg",
+        "image": "https://i.ibb.co/93w4kQq/Table-Lamp.jpg",
         "price": 55.00,
-        "rating": 4.7
+        "rating": 4.7,
+        "description": "A stylish table lamp that provides the perfect lighting for your space."
     },
     {
         "id": 5,
         "name": "Area Rug",
-        "image": "https://example.com/images/area_rug.jpg",
+        "image": "https://i.ibb.co/m8rPt7T/Area-Rug.jpg",
         "price": 120.00,
-        "rating": 4.6
+        "rating": 4.6,
+        "description": "A luxurious area rug that brings warmth and style to any room."
     },
     {
         "id": 6,
         "name": "Picture Frame",
-        "image": "https://example.com/images/picture_frame.jpg",
+        "image": "https://i.ibb.co/RDjGJSS/Picture-Frame.jpg",
         "price": 20.00,
-        "rating": 4.4
+        "rating": 4.4,
+        "description": "A classic picture frame to display your cherished memories."
     },
     {
         "id": 7,
         "name": "Candlestick Holder",
-        "image": "https://example.com/images/candlestick_holder.jpg",
+        "image": "https://i.ibb.co/KX5NYsT/Candlestick-Holder.jpg",
         "price": 30.00,
-        "rating": 4.5
+        "rating": 4.5,
+        "description": "An elegant candlestick holder that adds a touch of sophistication."
     },
     {
         "id": 8,
         "name": "Decorative Mirror",
-        "image": "https://example.com/images/decorative_mirror.jpg",
+        "image": "https://i.ibb.co/hC9VW2R/Decorative-Mirror.jpg",
         "price": 75.00,
-        "rating": 4.9
+        "rating": 4.9,
+        "description": "A beautifully designed decorative mirror that enhances the look of any room."
     },
     {
         "id": 9,
         "name": "Flower Pot",
-        "image": "https://example.com/images/flower_pot.jpg",
+        "image": "https://i.ibb.co/BLCQ2wc/Flower-Pot.jpg",
         "price": 18.00,
-        "rating": 4.3
+        "rating": 4.3,
+        "description": "A charming flower pot perfect for showcasing your favorite plants."
     },
     {
         "id": 10,
         "name": "Bookend",
-        "image": "https://example.com/images/bookend.jpg",
+        "image": "https://i.ibb.co/2YnFb8k/Bookend.jpg",
         "price": 22.00,
-        "rating": 4.1
+        "rating": 4.1,
+        "description": "A unique bookend that keeps your books organized and adds a decorative touch."
+    },
+    {
+        "id": 11,
+        "name": "Handwoven Basket",
+        "image": "https://i.postimg.cc/BbNQx3ZR/Handwoven-Basket.jpg",
+        "price": 28.00,
+        "rating": 4.5,
+        "description": "A versatile handwoven basket perfect for storage and decor."
+    },
+    {
+        "id": 12,
+        "name": "Ceramic Sculpture",
+        "image": "https://i.postimg.cc/tJ94ZJbh/Ceramic-Sculpture.jpg",
+        "price": 35.00,
+        "rating": 4.7,
+        "description": "A unique ceramic sculpture that adds an artistic touch to your home."
+    },
+    {
+        "id": 13,
+        "name": "Decorative Tray",
+        "image": "https://i.postimg.cc/htYvyK8B/Decorative-Tray.jpg",
+        "price": 40.00,
+        "rating": 4.6,
+        "description": "A stylish decorative tray perfect for serving or display."
+    },
+    {
+        "id": 14,
+        "name": "Velvet Cushion",
+        "image": "https://i.postimg.cc/cJ8HPPT8/Velvet-Cushion.jpg",
+        "price": 25.00,
+        "rating": 4.4,
+        "description": "A luxurious velvet cushion that adds comfort and style."
+    },
+    {
+        "id": 15,
+        "name": "Glass Terrarium",
+        "image": "https://i.postimg.cc/FHz1VYLp/Glass-Terrarium.jpg",
+        "price": 50.00,
+        "rating": 4.8,
+        "description": "A modern glass terrarium perfect for displaying small plants."
+    },
+    {
+        "id": 16,
+        "name": "Metal Wall Sculpture",
+        "image": "https://i.postimg.cc/02cbSYbr/Metal-Wall-Sculpture.jpg",
+        "price": 65.00,
+        "rating": 4.9,
+        "description": "An eye-catching metal wall sculpture that adds depth to your decor."
+    },
+    {
+        "id": 17,
+        "name": "Woven Throw Blanket",
+        "image": "https://i.postimg.cc/MHYXdR5P/Woven-Throw-Blanket.jpg",
+        "price": 35.00,
+        "rating": 4.3,
+        "description": "A cozy woven throw blanket perfect for any room."
+    },
+    {
+        "id": 18,
+        "name": "Hanging Planter",
+        "image": "https://i.postimg.cc/zBKyH4g1/Hanging-Planter.jpg",
+        "price": 20.00,
+        "rating": 4.5,
+        "description": "A beautiful hanging planter ideal for indoor plants."
+    },
+    {
+        "id": 19,
+        "name": "Rustic Clock",
+        "image": "https://i.postimg.cc/wBtyg1xM/Rustic-Clock.jpg",
+        "price": 55.00,
+        "rating": 4.7,
+        "description": "A charming rustic clock that combines functionality and style."
+    },
+    {
+        "id": 20,
+        "name": "Marble Coasters",
+        "image": "https://i.postimg.cc/52KYhBVD/Marble-Coasters.jpg",
+        "price": 15.00,
+        "rating": 4.6,
+        "description": "Elegant marble coasters to protect your surfaces."
+    },
+    {
+        "id": 21,
+        "name": "Decorative Lantern",
+        "image": "https://i.postimg.cc/zDThyHCR/Decorative-Lantern.jpg",
+        "price": 30.00,
+        "rating": 4.4,
+        "description": "A vintage-style decorative lantern that adds ambiance."
+    },
+    {
+        "id": 22,
+        "name": "Wooden Bookcase",
+        "image": "https://i.postimg.cc/yYBZc6jp/Wooden-Bookcase.jpg",
+        "price": 150.00,
+        "rating": 4.8,
+        "description": "A sturdy wooden bookcase perfect for organizing your books."
+    },
+    {
+        "id": 23,
+        "name": "Bamboo Wind Chimes",
+        "image": "https://i.postimg.cc/133V7WLp/Bamboo-Wind-Chimes.jpg",
+        "price": 22.00,
+        "rating": 4.3,
+        "description": "A set of bamboo wind chimes that create soothing sounds."
+    },
+    {
+        "id": 24,
+        "name": "Geometric Candle Holder",
+        "image": "https://i.postimg.cc/Wb2dtWpQ/Geometric-Candle-Holder.jpg",
+        "price": 18.00,
+        "rating": 4.5,
+        "description": "A modern geometric candle holder that adds a touch of elegance."
+    },
+    {
+        "id": 25,
+        "name": "Framed Art Print",
+        "image": "https://i.postimg.cc/3NQDL3TR/Framed-Art-Print.jpg",
+        "price": 45.00,
+        "rating": 4.7,
+        "description": "A beautiful framed art print to enhance your wall decor."
     }
 ]
