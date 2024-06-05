@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Decorative Vase",
+        "image": "https://example.com/images/vase.jpg",
+        "price": 25.00,
+        "rating": 4.5
+    },
+    {
+        "id": 2,
+        "name": "Wall Art",
+        "image": "https://example.com/images/wall_art.jpg",
+        "price": 45.00,
+        "rating": 4.8
+    },
+    {
+        "id": 3,
+        "name": "Throw Pillow",
+        "image": "https://example.com/images/throw_pillow.jpg",
+        "price": 15.00,
+        "rating": 4.2
+    },
+    {
+        "id": 4,
+        "name": "Table Lamp",
+        "image": "https://example.com/images/table_lamp.jpg",
+        "price": 55.00,
+        "rating": 4.7
+    },
+    {
+        "id": 5,
+        "name": "Area Rug",
+        "image": "https://example.com/images/area_rug.jpg",
+        "price": 120.00,
+        "rating": 4.6
+    },
+    {
+        "id": 6,
+        "name": "Picture Frame",
+        "image": "https://example.com/images/picture_frame.jpg",
+        "price": 20.00,
+        "rating": 4.4
+    },
+    {
+        "id": 7,
+        "name": "Candlestick Holder",
+        "image": "https://example.com/images/candlestick_holder.jpg",
+        "price": 30.00,
+        "rating": 4.5
+    },
+    {
+        "id": 8,
+        "name": "Decorative Mirror",
+        "image": "https://example.com/images/decorative_mirror.jpg",
+        "price": 75.00,
+        "rating": 4.9
+    },
+    {
+        "id": 9,
+        "name": "Flower Pot",
+        "image": "https://example.com/images/flower_pot.jpg",
+        "price": 18.00,
+        "rating": 4.3
+    },
+    {
+        "id": 10,
+        "name": "Bookend",
+        "image": "https://example.com/images/bookend.jpg",
+        "price": 22.00,
+        "rating": 4.1
+    }
+]
