@@ -16,7 +16,7 @@ const Products = ({ products }) => {
     };
 
     return (
-        <div>
+        <div id='products'>
             <h1 className="text-5xl text-center mt-20 py-2 px-10 mb-10 bg-gradient-to-r from-transparent via-gray-300 to-transparent text-black" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
                 <span className='p-4 shadow-sm'>Products We Offer</span>
             </h1>
