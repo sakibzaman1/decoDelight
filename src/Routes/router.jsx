@@ -10,6 +10,7 @@ import PrivateRoute from '../PrivateRoutes/PrivateRoute';
 import About from '../Pages/About/About';
 import Contact from '../Pages/Contact/Contact';
 import ProductDetails from '../Components/ProductDetails/ProductDetails';
+import Payment from '../Pages/Payment/Payment';
 
 const router = createBrowserRouter([
     {
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
         {
           path: '/contact',
           element: <Contact></Contact>
+        },
+        {
+          path: '/payment',
+          element: <Payment></Payment>
         }
       ]
     },

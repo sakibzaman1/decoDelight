@@ -3,15 +3,18 @@ import React from "react";
 import { MdOutlineDeleteSweep } from "react-icons/md";
 
 
-import { Link } from "react-router-dom";
+import { Link, Route } from "react-router-dom";
 import UseAxiosSecure from "../../Hooks/UseAxiosSecure";
 import UseCart from "../../Hooks/UseCart";
 import swal from "sweetalert";
+import Payment from "../Payment/Payment";
 
 const Cart = () => {
     const [cart, refetch] = UseCart();
   const totalPrice = cart.reduce((sum, item) => sum + item.price, 0);
   const axiosSecure = UseAxiosSecure();
+
+  
 
   const handleDelete = _id => {
     swal({
@@ -38,7 +41,7 @@ const Cart = () => {
   }
 
   return (
-    <div className="px-20 py-28 bg-cover bg-center h-screen" style={{ backgroundImage: 'url("https://i.ibb.co/SfY0ZZt/bg.jpg")' }}>
+    <div className="px-20 py-28 bg-cover bg-center" style={{ backgroundImage: 'url("https://i.ibb.co/SfY0ZZt/bg.jpg")' }}>
       <div>
         <div className="overflow-x-auto mb-10">
           <table className="table">
@@ -52,9 +55,9 @@ const Cart = () => {
                 <th>
                   <h2 className="text-3xl">Total Price : {totalPrice}</h2>
                 </th>
-                <th>
-                  <Link to=""><button className="btn">Pay</button></Link>
-                </th>
+   <th>
+  
+</th>
               </tr>
             </thead>
           </table>
@@ -107,6 +110,10 @@ const Cart = () => {
             {/* row 1 */}
           </tbody>
         </table>
+
+        <div>
+        <Payment totalPrice={totalPrice} />
+        </div>
       </div>
     </div>
   );

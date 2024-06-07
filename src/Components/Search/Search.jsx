@@ -45,7 +45,7 @@ const Search = () => {
       {searchQuery && (
         <div className="z-10 search-results rounded-b-xl absolute top-full left-0 bg-black bg-opacity-90 shadow-lg w-[180%]">
           {matchingProducts.map(product => (
-            <Link to={`/products/${product?._id}`} onClick={handleLinkClick} key={product?._id}>
+            <Link to={`/productDetails/${product?._id}`} onClick={handleLinkClick} key={product?._id}>
             <div className='flex space-y-8 items-center gap-2' >
                 <img className='w-10 h-8' src={product?.image} alt="" />
                 <p className='text-sm h-12'>{product?.name}</p>
