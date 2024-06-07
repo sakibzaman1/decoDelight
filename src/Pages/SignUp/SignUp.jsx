@@ -124,7 +124,7 @@ const SignUp = () => {
     return (
         <div 
         className="pt-20 bg-cover bg-center"
-        style={{ backgroundImage: 'url("https://c4.wallpaperflare.com/wallpaper/992/950/442/white-gray-gradation-blur-wallpaper-preview.jpg")' }}
+        style={{ backgroundImage: 'url("https://i.ibb.co/SfY0ZZt/bg.jpg")' }}
       >
         <div className="hero lg:p-10">
           <div className="hero-content p-0 flex-col-reverse lg:flex-row lg:justify-around lg:items-start">

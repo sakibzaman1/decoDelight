@@ -9,6 +9,7 @@ import Cart from '../Pages/Cart/Cart';
 import PrivateRoute from '../PrivateRoutes/PrivateRoute';
 import About from '../Pages/About/About';
 import Contact from '../Pages/Contact/Contact';
+import ProductDetails from '../Components/ProductDetails/ProductDetails';
 
 const router = createBrowserRouter([
     {
@@ -19,7 +20,12 @@ const router = createBrowserRouter([
         {
             path: '/',
             element: <Home></Home>,
-            loader: ()=> fetch(`http://localhost:5000/products`)
+            loader: ()=> fetch(`https://deco-delight-server.vercel.app/products`)
+        },
+        {
+          path: '/productDetails/:id',
+          element: <ProductDetails></ProductDetails>,
+          loader: ({params})=> fetch(`https://deco-delight-server.vercel.app/products/${params.id}`)
         },
         {          
             path: '/signIn',

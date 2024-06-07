@@ -2,7 +2,7 @@ import React, { useContext, useEffect } from 'react';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import UseCart from '../../Hooks/UseCart';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import UseAxiosSecure from '../../Hooks/UseAxiosSecure';
 import { AuthContext } from '../../Providers/AuthProvider';
 import swal from 'sweetalert';
@@ -14,7 +14,7 @@ const ProductCard = ({product}) => {
         AOS.refresh();
       }, []);
 
-      const {user} = useContext(AuthContext);;
+      const {user, goToTop} = useContext(AuthContext);;
     const axiosSecure = UseAxiosSecure();
 
     const navigate = useNavigate();
@@ -70,7 +70,11 @@ const ProductCard = ({product}) => {
     }
 
     return (
-        <div className="card bg-base-100 shadow-xl relative overflow-hidden" data-aos="zoom-in" data-aos-duration="2000">
+   <>
+   
+   <Link onClick={goToTop} to={`/productDetails/${product?._id}`}>
+   
+   <div className="card h-[500px] bg-base-100 shadow-xl relative overflow-hidden" data-aos="zoom-in" data-aos-duration="2000">
   <div className="absolute inset-0 bg-cover bg-center filter blur-lg opacity-50 animate-zoom" style={{ backgroundImage: `url('${product?.image}')` }}></div>
   <figure className="px-10 pt-10 relative z-10">
     <img src={product?.image} alt="Shoes" className="rounded-t-lg h-40 w-80" />
@@ -84,6 +88,10 @@ const ProductCard = ({product}) => {
     </div>
   </div>
 </div>
+   
+   </Link>
+   
+   </>
 
     );
 };

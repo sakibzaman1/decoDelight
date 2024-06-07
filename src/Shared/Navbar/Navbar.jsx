@@ -80,12 +80,12 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow text-black bg-base-100 rounded-box w-52"
           >
             {navOptions}
           </ul>
         </div>
-        <h1 className="text-2xl font-mono pl-10">DECO DELIGHT</h1>
+        <h1 className="text-sm lg:text-2xl font-mono pl-10">DECO DELIGHT</h1>
         <div className="ml-4">
           <Search></Search>
         </div>

@@ -38,7 +38,7 @@ const Cart = () => {
   }
 
   return (
-    <div className="px-20 py-28 bg-cover bg-center h-screen" style={{ backgroundImage: 'url("https://c4.wallpaperflare.com/wallpaper/992/950/442/white-gray-gradation-blur-wallpaper-preview.jpg")' }}>
+    <div className="px-20 py-28 bg-cover bg-center h-screen" style={{ backgroundImage: 'url("https://i.ibb.co/SfY0ZZt/bg.jpg")' }}>
       <div>
         <div className="overflow-x-auto mb-10">
           <table className="table">

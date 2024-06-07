@@ -4,7 +4,7 @@ import React from 'react';
 const UseAxiosSecure = () => {
 
     const axiosSecure = axios.create({
-        baseURL : 'http://localhost:5000'
+        baseURL : 'https://deco-delight-server.vercel.app'
     })
     return axiosSecure;
 };

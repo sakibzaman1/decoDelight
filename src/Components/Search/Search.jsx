@@ -10,7 +10,7 @@ const Search = () => {
     // Fetch movie data from MongoDB
     // You can use fetch or any library like axios to fetch data
     // For simplicity, I'm assuming you have a function called fetchMoviesFromMongoDB
-    fetch(`http://localhost:5000/products`)
+    fetch(`https://deco-delight-server.vercel.app/products`)
         .then(res=> res.json())
         .then(data=> setProducts(data))
   }, []);
@@ -38,7 +38,7 @@ const Search = () => {
       <input
         type="text"
         placeholder="Search"
-        className="input bg-transparent input-bordered w-24 md:w-auto lg:w-48 h-10 rounded-lg"
+        className="input bg-transparent text-black input-bordered border-2 w-24 md:w-auto lg:w-48 h-10 rounded-lg"
         value={searchQuery}
         onChange={handleSearchChange}
       />
